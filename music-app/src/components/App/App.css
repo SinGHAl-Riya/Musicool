@@ -1,0 +1,55 @@
+body,html,#root{
+  height: 100%;
+}
+html{
+  font-size: 10px;
+}
+h1{
+  padding: 2rem;
+  background-color: #8e4b09;
+  text-align: center;
+  font-family: "Montserrat, sans-serif";
+  font-size: #fff;
+  font-size: 30px;
+  font-weight: bold;
+}
+h1:hover{
+  text-transform: uppercase;
+  text-decoration: solid;
+  cursor: pointer;
+  font-size: 3rem;
+}
+h1.highlight{
+  color: rgb(46,113,238);
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+h2{
+  font-family: "Montserrat, sans-serif";
+  font-size: 1.55rem;
+}
+.App{
+  height: 100%;
+  padding: 10px 4rem 2rem 4rem;
+  background-image: url("../../../pexels-mark-angelo-sampan-1587927.jpg") ;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Montserrat, sans-serif";
+  font-weight: 500;
+  color: #fff; 
+
+}
+.App-Playlist{
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1020px){
+  .App-playlist{
+    align-items: center;
+    flex-direction: column;
+  }
+}
